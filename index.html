@@ -52,7 +52,6 @@
       <section class="grid grid-cols-12 gap-10">
         <div class="col-span-9 px-10">
           <h1 class="font-semibold text-[40px] mb-4">Kitchenware</h1>
-
           <div class="card-container grid grid-cols-3 gap-5 mb-10">
             <div class="card bg-white shadow-sm p-4">
               <figure
@@ -68,11 +67,18 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                 </div>
-                <h2 class="text-xl font-semibold text-gray-700">
+                <h2
+                  id="product-name"
+                  class="text-xl font-semibold text-gray-700"
+                >
                   K. Accessories
                 </h2>
-                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
-                <button class="btn btn-secondary w-full">Add to Cart</button>
+                <p class="text-gray-400 py-2">
+                  <span id="card-price-1">39.00</span> TK
+                </p>
+                <button id="add-btn-1" class="btn btn-secondary w-full">
+                  Add to Cart
+                </button>
               </div>
             </div>
             <div class="card bg-white shadow-sm p-4">
@@ -89,11 +95,18 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                 </div>
-                <h2 class="text-xl font-semibold text-gray-700">
-                  K. Accessories
+                <h2
+                  id="product-name-2"
+                  class="text-xl font-semibold text-gray-700"
+                >
+                  Table Accessories
                 </h2>
-                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
-                <button class="btn btn-secondary w-full">Add to Cart</button>
+                <p class="text-gray-400 py-2">
+                  <span id="card-price-2">769.00</span> TK
+                </p>
+                <button id="add-btn-2" class="btn btn-secondary w-full">
+                  Add to Cart
+                </button>
               </div>
             </div>
             <div class="card bg-white shadow-sm p-4">
@@ -271,48 +284,20 @@
           </div>
           <div class="card w-full bg-white shadow-sm">
             <div class="card-body">
-              <div
-                class="card card-side bg-gray-200 shadow-sm h-[130px] p-4 justify-between mb-5"
-              >
-                <figure class="">
-                  <img src="assets/kitchen-1.png" alt="Movie" />
-                </figure>
-                <div class="text-xl font-medium">
-                  <h1>K. Accessories</h1>
-                  <p>39.00 TK</p>
-                </div>
-              </div>
-              <div
-                class="card card-side bg-gray-200 shadow-sm h-[130px] p-4 justify-between mb-5"
-              >
-                <figure class="">
-                  <img src="assets/kitchen-1.png" alt="Movie" />
-                </figure>
-                <div class="text-xl font-medium">
-                  <h1>K. Accessories</h1>
-                  <p>39.00 TK</p>
-                </div>
-              </div>
-              <div
-                class="card card-side bg-gray-200 shadow-sm h-[130px] p-4 justify-between mb-5"
-              >
-                <figure class="">
-                  <img src="assets/kitchen-1.png" alt="Movie" />
-                </figure>
-                <div class="text-xl font-medium">
-                  <h1>K. Accessories</h1>
-                  <p>39.00 TK</p>
-                </div>
-              </div>
+              <div id="add-container"></div>
+
               <div class="border-y-2 border-gray-300 py-4 mb-4">
                 <p class="font-medium text-2xl text-gray-500">
-                  Total price: <span>205.60</span>TK
+                  Quantity: <span id="product-quantity">0</span>
                 </p>
                 <p class="font-medium text-2xl text-gray-500">
-                  Discount : <span>205.60</span>TK
+                  Total price: <span id="total-price">0</span>TK
                 </p>
                 <p class="font-medium text-2xl text-gray-500">
-                  Total: <span>205.60</span>TK
+                  Discount : <span id="discount-price">0</span>TK
+                </p>
+                <p class="font-medium text-2xl text-gray-500">
+                  Total: <span id="last-total">0</span>TK
                 </p>
               </div>
               <button
