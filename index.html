@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./tailwind.css" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <!-- daisyUI cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -12,10 +13,17 @@
     />
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Deshi Deals</title>
   </head>
-  <body class="work-sans">
+  <body class="work-sans bg-[#F8F8F8]">
     <nav class="flex justify-center items-center p-4 gap-2 shadow">
       <figure class="w-[78px]">
         <img src="./assets/logo.png" alt="" />
@@ -28,15 +36,264 @@
       </div>
     </nav>
 
-    <header class="text-center h-[900px] bg-linear-180 from-pink-0 to-pink-100">
+    <header
+      class="text-center h-[900px] bg-linear-180 from-pink-0 to-pink-100 mb-52"
+    >
       <h1 class="font-bold text-6xl pt-30">Purchase TK 200 or above & get</h1>
       <h1 class="font-bold text-6xl text-pink-500">20% off</h1>
       <div class="flex justify-center items-center pt-10 gap-15 font-medium">
         <p>Use Promo Code</p>
-        <button class="btn btn-secondary">SELL200</button>
+        <button class="btn btn-secondary px-10">SELL200</button>
       </div>
       <img class="mx-auto" src="./assets/hero-bg.png" alt="" />
     </header>
+
+    <main>
+      <section class="grid grid-cols-12 gap-20 w-11/12 mx-auto">
+        <div class="col-span-9 px-10">
+          <h1 class="font-semibold text-[40px]">Kitchenware</h1>
+
+          <div class="card-container grid grid-cols-3 gap-5 p-5 mb-10">
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full rounded-xl mx-auto flex h-[200px]"
+              >
+                <img src="./assets/kitchen-1.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  K. Accessories
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full h-[200px] rounded-xl mx-auto flex"
+              >
+                <img src="./assets/kitchen-2.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  K. Accessories
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full rounded-xl mx-auto flex h-[200px]"
+              >
+                <img src="./assets/kitchen-3.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">Home Cooker</h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <h1 class="font-semibold text-[40px]">Sportswear</h1>
+
+          <div class="card-container grid grid-cols-3 gap-5 p-5 mb-10">
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full rounded-xl mx-auto flex h-[200px]"
+              >
+                <img src="./assets/sports-1.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  Sports Back Cap
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full h-[200px] rounded-xl mx-auto flex"
+              >
+                <img src="./assets/sports-2.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  Full Jersey Set
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full rounded-xl mx-auto flex h-[200px]"
+              >
+                <img src="./assets/sports-3.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  Sports cates
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <h1 class="font-semibold text-[40px]">Furniture</h1>
+
+          <div class="card-container grid grid-cols-3 gap-5 p-5 mb-10">
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full rounded-xl mx-auto flex h-[200px]"
+              >
+                <img src="./assets/furniture-1.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  Single Relax Chair
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full h-[200px] rounded-xl mx-auto flex"
+              >
+                <img src="./assets/furniture-2.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  Children play
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card bg-white shadow-sm p-4">
+              <figure
+                class="py-5 bg-gray-200 w-full rounded-xl mx-auto flex h-[200px]"
+              >
+                <img src="./assets/furniture-3.png" alt="Shoes" />
+              </figure>
+              <div class="items-center text-center">
+                <div class="text-amber-400 pt-4">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-700">
+                  Flexible Sofa
+                </h2>
+                <p class="text-gray-400 py-2"><span>39.00</span> TK</p>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Aside section -->
+        <aside class="col-span-3">
+          <div class="card w-full bg-white shadow-sm mb-11">
+            <div class="card-body">
+              <h2 class="font-medium text-2xl">Have Coupon?</h2>
+              <div class="join text-center w-full">
+                <input
+                  class="input join-item rounded-l-lg focus:outline-0 h-14"
+                  placeholder="coupon code"
+                />
+                <button
+                  class="btn join-item rounded-r-lg bg-[#E527B2] text-white h-14"
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-full bg-white shadow-sm">
+            <div class="card-body">
+              
+              <div class="border-y-2 border-gray-300 py-4 mb-4">
+                <p class="font-medium text-2xl text-gray-500">
+                  Total price: <span>205.60</span>TK
+                </p>
+                <p class="font-medium text-2xl text-gray-500">
+                  Discount : <span>205.60</span>TK
+                </p>
+                <p class="font-medium text-2xl text-gray-500">
+                  Total: <span>205.60</span>TK
+                </p>
+              </div>
+              <button
+                class="btn w-full h-14 rounded-lg bg-[#E527B2] text-white"
+              >
+                Make Purchase
+              </button>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </main>
+
     <script src="./script.js"></script>
   </body>
 </html>
